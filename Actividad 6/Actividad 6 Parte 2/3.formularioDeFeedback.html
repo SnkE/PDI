@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <form action="#" method="post"> <!--  Define un formulario para recopilar datos del usuario, como información de contacto o credenciales. -->
+        <label for="nombre">Nombre:</label> 
+        <!-- Se asocia con elementos de formulario (como <input>) para proporcionar una descripción o nombre que ayude al usuario a entender el propósito del campo. -->
+        <input type="text" id="nombre" name="nombre">
+        <!-- Crea campos de entrada en formularios, como campos de texto, casillas de verificación o botones de radio. -->
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo">
+        
+        <label for="calificacion">Calificación de la Asignatura:</label>
+        <select id="calificacion" name="calificacion">
+          <!-- se utiliza para crear listas desplegables en formularios -->
+         <option value="1">1</option> <!--  define las opciones dentro de esas listas. -->
+          ...
+          <option value="10">10</option>
+        </select>
+        
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+        <!-- Crea un área de texto multilínea en un formulario, que permite a los usuarios ingresar texto más largo -->
+        <button type="submit">Enviar</button>
+        <!-- Crea botones en formularios para acciones como enviar datos o realizar una acción específica en la página. -->
+      </form>
+</body>
+</html>
