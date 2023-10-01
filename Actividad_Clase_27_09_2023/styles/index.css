@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 5px black solid;
+    height: 600px;
+}
+
+.contenedorPadre{
+    border: 5px red solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 200px;
+}
+
+.contenedorHijo{
+    border: 5px blue solid;
+    height: 70px;
+    width: 200px;
+}
