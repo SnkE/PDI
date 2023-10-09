@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=i.0">
+        <link rel="stylesheet" href="./styles/registro.css">
+        <script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+    </head>
+    <body>
+
+        <header>
+            <ul class="contenedorPadre">
+                <ul class="logo">
+                    <a href="/"><img src="/img/logo.png" alt=""></a>
+                </ul>
+                <ul class="HeaderPCentro">
+    
+                    <div class="container">
+                        <div class="search-input-box">
+                            <input type="text" placeholder="¿Qué quieres buscar?" />
+                            <a href="#" target="_blank">
+                                <i class="fa-solid fa-magnifying-glass icon"> </i>
+                            </a>
+                        </div>
+                    </div>
+            
+    
+                </ul>
+                <ul class="HeaderPDerecha">
+                     <li><a href=""><img src="./img/Carrito.png" alt=""></a>Mi Carrito</li>
+                </ul>          
+            </ul>
+        </header>
+
+    
+        <form method="post" class="form-registrer">
+            <h2 class="form_titulo">CREA UNA CUENTA</h2>
+            <div class="contenedor-inputs">             
+                <input type="text" id="nombre" name="nombre"
+                placeholder="Nombre" class="input-48" required>
+                <input type="text" id="apellidos" name="apellidos"
+                placeholder="Apellidos" class="input-48" required>
+                <input type="email" id="correo" name="correo"
+                placeholder="Correo" class="input-100" required>
+                <input type="text" id="usuario" name="usuario"
+                placeholder="Usuario" class="input-48" required>
+                <input type="password" id="clave" name="clave"
+                placeholder="Contraseña" class="input-48" required>
+                <input type="text" id="telefono" name="telefono"
+                placeholder="Telefono" class="input-100" required>
+                <input type="submit" value="Registrar" class="btn_enviar">
+                <p class="form__link">¿Ya tienes una cuenta? <a href="login.html"> Ingresa aqui</a></p>
+            </div>
+    </body>
+</html>
